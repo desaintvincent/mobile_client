@@ -1,0 +1,67 @@
+{
+  "name": "city",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon src/js/server.js --exec babel-node",
+    "build": "./node_modules/.bin/babel src/js/ -d dist/js/ --presets es2015,stage-2 --ignore spec.js,node_modules",
+    "serve": "node dist/js/server.js",
+    "clean": "rm -rf dist node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/desaintvincent/city.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/desaintvincent/city#readme",
+  "babel": {
+    "passPerPreset": true,
+    "presets": [
+      "react",
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      "babel-plugin-inline-import",
+      "transform-runtime"
+    ]
+  },
+  "dependencies": {
+    "alea": "0.0.9",
+    "axios": "^0.16.2",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.1",
+    "lodash": "^4.15.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.12.0",
+    "morgan": "^1.8.2",
+    "node-schedule": "^1.2.5",
+    "simplex-noise": "^2.3.0",
+    "socket.io": "^2.0.4",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.0.0",
+    "babel-plugin-inline-import": "^2.0.1",
+    "babel-plugin-transform-async-to-module-method": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "eslint": "^3.8.1",
+    "nodemon": "^1.12.1"
+  }
+}

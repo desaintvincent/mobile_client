@@ -1,0 +1,196 @@
+{
+  "tile": {
+    "dirt": {
+      "img": "dirt",
+      "medium": "8D5304FF",
+      "usable": true,
+      "id": 0
+    },
+    "grass": {
+      "img": "grass",
+      "medium": "04EB04FF",
+      "usable": true,
+      "id": 1
+    },
+    "grass2": {
+      "img": "grass2",
+      "medium": "0AAC06FF",
+      "usable": true,
+      "id": 2
+    },
+    "grass3": {
+      "img": "grass3",
+      "medium": "047C04FF",
+      "usable": true,
+      "id": 3
+    },
+    "grass4": {
+      "img": "grass4",
+      "medium": "047E04FF",
+      "usable": true,
+      "id": 4
+    },
+    "stone": {
+      "img": "stone",
+      "medium": "B7B7B7FF",
+      "usable": true,
+      "id": 5
+    },
+    "road1": {
+      "img": "road1",
+      "medium": "",
+      "usable": true,
+      "id": 6
+    },
+    "road2": {
+      "img": "road2",
+      "medium": "",
+      "usable": true,
+      "id": 7
+    },
+    "road3": {
+      "img": "road3",
+      "medium": "",
+      "usable": true,
+      "id": 8
+    },
+    "road4": {
+      "img": "road4",
+      "medium": "",
+      "usable": true,
+      "id": 9
+    },
+    "road5": {
+      "img": "road5",
+      "medium": "",
+      "usable": true,
+      "id": 10
+    },
+    "road6": {
+      "img": "road6",
+      "medium": "",
+      "usable": true,
+      "id": 11
+    },
+    "road7": {
+      "img": "road7",
+      "medium": "",
+      "usable": true,
+      "id": 12
+    },
+    "water": {
+      "img": "water",
+      "medium": "6DCEE5FF",
+      "usable": false,
+      "id": 13
+    },
+    "water2": {
+      "img": "water2",
+      "medium": "6DCEE5FF",
+      "usable": false,
+      "id": 14
+    },
+    "route": {
+      "img": "route",
+      "medium": "6DCEE5FF",
+      "usable": true,
+      "id": 15
+    },
+    "q": {
+      "img": "q",
+      "medium": "6DCEE5FF",
+      "usable": true,
+      "id": 16
+    }
+  },
+  "object": {
+    "gtree": {
+      "img": "gtree",
+      "medium": "",
+      "usable": true,
+      "id": 0
+    },
+    "narcotree": {
+      "img": "narcotree",
+      "medium": "",
+      "usable": true,
+      "id": 1
+    },
+    "house": {
+      "img": "house",
+      "medium": "",
+      "usable": false,
+      "waitingTime": 10,
+      "id": 2
+    },
+    "construction": {
+      "img": "construction",
+      "usable": false,
+      "medium": "",
+      "id": 3
+    },
+    "e": {
+      "img": "e",
+      "medium": "",
+      "usable": true,
+      "waitingTime": 30,
+      "id": 4
+    },
+    "r": {
+      "img": "r",
+      "medium": "",
+      "usable": true,
+      "waitingTime": 30,
+      "id": 5
+    },
+    "shop2": {
+      "img": "shop2",
+      "medium": "",
+      "id": 6,
+      "usable": true,
+      "waitingTime": 600
+    },
+    "shop": {
+      "img": "shop",
+      "medium": "",
+      "usable": true,
+      "waitingTime": 600,
+      "id": 7
+    },
+    "shop3": {
+      "img": "shop3",
+      "medium": "",
+      "usable": true,
+      "waitingTime": 600,
+      "id": 8
+    },
+    "t": {
+      "img": "t",
+      "medium": "",
+      "usable": true,
+      "waitingTime": 50,
+      "id": 9
+    },
+    "u": {
+      "img": "u",
+      "medium": "",
+      "usable": true,
+      "waitingTime": 50,
+      "id": 10
+    },
+    "y": {
+      "img": "y",
+      "medium": "",
+      "usable": true,
+      "waitingTime": 50,
+      "id": 11
+    },
+    "w": {
+      "img": "w",
+      "medium": "",
+      "usable": true,
+      "waitingTime": 50,
+      "id": 12
+    }
+  }
+}
