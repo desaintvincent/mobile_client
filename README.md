@@ -23,8 +23,7 @@ $ npm run serve
 ```
 You will need the [client](https://github.com/desaintvincent/mobile_client.git)
 
-## Technicals features :
-* Firebase analytics
+## Technicals features:
 * Websockets
 * nodejs
 
